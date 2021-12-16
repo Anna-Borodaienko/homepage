@@ -1,5 +1,7 @@
 /* General styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
   line-height: 1.5;
 
   --primary-text-color: #181820;
@@ -128,8 +130,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -159,11 +161,6 @@ body {
 }
 
 .intro_text {
-  color: var(--secondary-text-color);
-  text-align: justify;
-}
-
-.intro_text_2 {
   color: var(--secondary-text-color);
   text-align: justify;
 }
