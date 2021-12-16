@@ -150,7 +150,7 @@ body {
 }
 
 .intro__icon {
-  height: 1.1428rem;
+  height: 5.1428rem;
   vertical-align: text-bottom;
 }
 
@@ -159,6 +159,11 @@ body {
 }
 
 .intro_text {
+  color: var(--secondary-text-color);
+  text-align: justify;
+}
+
+.intro_text_2 {
   color: var(--secondary-text-color);
   text-align: justify;
 }
