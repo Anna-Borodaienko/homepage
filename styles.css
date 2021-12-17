@@ -1,5 +1,7 @@
 /* General styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
   line-height: 1.5;
 
   --primary-text-color: #181820;
@@ -93,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+    }
 
 .contact-info__block--center {
     justify-content: center;
@@ -128,8 +130,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -150,7 +152,7 @@ body {
 }
 
 .intro__icon {
-  height: 1.1428rem;
+  height: 5.1428rem;
   vertical-align: text-bottom;
 }
 
@@ -235,21 +237,21 @@ body {
 
 .additional-info__education-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  
 }
 
 .additional-info__education-university-name {
@@ -258,14 +260,23 @@ body {
 
 .additional-info__languages {
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .additional-info__languages-header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+#nut {
+  position: absolute;
+}
+
+ #squir {
+  position: absolute;  
+ }
